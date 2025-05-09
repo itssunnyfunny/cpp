@@ -24,6 +24,6 @@ int main() {
             cout << "Total price: " << totalPrice << endl;
     }
 
-
+return 0;
 
 }
