@@ -1,0 +1,93 @@
+# =========================
+# Operating System files
+# =========================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.fuse_hidden*
+
+# =========================
+# Build artifacts
+# =========================
+
+# Object files
+*.o
+*.obj
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Dependency files
+*.d
+
+# Archive files
+*.tar
+*.zip
+
+# Build folders
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# =========================
+# VS Code settings
+# =========================
+
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =========================
+# Logs and temporary files
+# =========================
+
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Other editor files
+# =========================
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+
+# Emacs
+*~
+\#*\#
+*.elc
+auto-save-list/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
