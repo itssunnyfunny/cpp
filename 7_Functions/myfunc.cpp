@@ -12,7 +12,7 @@ void printTeaType(string teaType)
 // function declaration
 void someFunction(int a, int b);
 
-// function overloading default parameter
+// function overloading, default parameter
 void someFunction(string a = "masala chai")
 {
    cout << "The tea type is: " << a << endl;
