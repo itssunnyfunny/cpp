@@ -3,7 +3,7 @@
 #include <vector>
 
 using namespace std;
-
+// default constructor
 class Person {
     public:
             // data members (attributes)
