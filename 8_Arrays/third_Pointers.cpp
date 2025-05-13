@@ -15,7 +15,9 @@ int main() {
      int* chaiOrder = prepareChaiOrder(cups); // Call the function to prepare the order
      for(int i = 0; i < cups; i++) {
         cout << "Cup number: " << chaiOrder[i] << endl; // Print the cup numbers
-        delete[] chaiOrder; // Free the dynamically allocated memory
+}
+
+  delete[] chaiOrder; // Free the dynamically allocated memory
     return 0;
 }
 
